@@ -36,7 +36,7 @@ export default function RootLayout({
       <body className="bg-background text-foreground font-body antialiased">
         <Providers>
           <Navigation />
-          <main className="pt-14">{children}</main>
+          <main className="pt-14 md:pt-0">{children}</main>
         </Providers>
       </body>
     </html>
